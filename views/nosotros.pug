@@ -1,0 +1,51 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg" alt="imagen sobre nosotros" class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed eget aliquam nulla. Mauris luctus finibus varius. Nam massa dui, 
+                scelerisque eget est eu, placerat cursus nulla. Nulla porttitor magna 
+                eu viverra consectetur. Nam vehicula erat elit. Nulla euismod faucibus 
+                diam sed pharetra. Praesent facilisis, velit eget finibus condimentum, 
+                dolor nibh varius enim, ac convallis leo ex at erat. Sed lacinia elit quis 
+                venenatis ultricies. Aenean tincidunt ex sit amet lacus tincidunt dignissim 
+                eget a lorem.
+
+                p Sed lobortis lectus nec leo ultrices blandit. Maecenas eget massa nisl. 
+                Nullam in nunc diam. Duis sollicitudin, est nec commodo tincidunt, sapien 
+                ante cursus nulla, ut dictum risus sem vitae ante. Phasellus posuere, tellus 
+                eget commodo varius, quam lectus convallis ex, et tempus nulla nibh et nibh. 
+                Curabitur sed tortor aliquet, congue purus quis, varius ante.
+
+                p Orci varius natoque penatibus et magnis dis parturient montes, nascetur 
+                ridiculus mus. In placerat massa at justo venenatis posuere. Maecenas tincidunt 
+                orci in risus fringilla, non faucibus risus aliquam. Sed aliquet a nisl ac placerat. 
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Egestas ex vel massa placerat mollis. Curabitur volutpat suscipit justo 
+                vel facilisis. Fusce in fringilla dolor.
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center    
+            .row  
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Orci varius natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Egestas ex vel massa placerat mollis. Curabitur 
+                    volutpat suscipit justo vel facilisis. Fusce in fringilla dolor.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Orci varius natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Egestas ex vel massa placerat mollis. Curabitur 
+                    volutpat suscipit justo vel facilisis. Fusce in fringilla dolor.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Precios 
+                    p Orci varius natoque penatibus et magnis dis parturient montes, 
+                    nascetur ridiculus mus. Egestas ex vel massa placerat mollis. Curabitur 
+                    volutpat suscipit justo vel facilisis. Fusce in fringilla dolor.
